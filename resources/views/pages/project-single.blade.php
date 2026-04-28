@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="page-hero"><div class="container py-20"><h1>Проект</h1></div></section>
-<section class="container py-16"><img src="{{ asset('assets/images/section-photo.svg') }}" alt="проект" class="w-full rounded"></section>
+<section class="container py-16"><img src="{{ asset('Картинки/Картинки/Складские услуги/СКЛАД%203.jpg') }}" alt="Проект по складской обработке и подготовке грузов к отправке" class="w-full rounded object-cover aspect-[16/9]" loading="lazy" decoding="async"></section>
 <section class="container pb-16 grid lg:grid-cols-3 gap-8">
   <article class="lg:col-span-2 prose-custom">
     <h2>Описание проекта</h2>

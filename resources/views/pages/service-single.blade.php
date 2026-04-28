@@ -5,7 +5,7 @@
 @section('content')
 <div class="container py-12">
   <h1 class="text-4xl font-bold text-[#1C1F35]">Авиадоставка грузов</h1>
-  <img src="{{ asset('assets/images/section-photo.svg') }}" alt="Авиаперевозка коммерческих грузов" class="mt-6 w-full rounded">
+  <img src="{{ asset('Картинки/Картинки/АВИА/АВИА%201.png') }}" alt="Авиаперевозка коммерческих грузов с приоритетной обработкой" class="mt-6 w-full rounded object-cover aspect-[16/9]" loading="eager" decoding="async">
   <p class="mt-6">Шаблон страницы услуги можно копировать для любых направлений: меняйте заголовок, преимущества и FAQ под конкретный сервис.</p>
   <h2 class="text-2xl font-semibold text-[#1C1F35] mt-8">Преимущества услуги</h2>
   <ul class="list-disc pl-6 mt-3"><li>Доставка срочных грузов от 1 дня</li><li>Приоритетная обработка в аэропортах</li><li>Поддержка температурных режимов</li></ul>
