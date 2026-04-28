@@ -37,9 +37,15 @@
                     </div>
                 </div>
             </div>
-            <div class="mx-auto w-full max-w-[430px] rounded-[4px] border-4 border-[#D6D8E1] bg-[#D6D8E1] p-4">
-                <div class="border-[20px] border-[#091242] bg-[#C99A3A] h-[210px] md:h-[230px]"></div>
-            </div>
+            <figure class="mx-auto w-full max-w-[430px] rounded-[4px] border-4 border-[#D6D8E1] bg-[#D6D8E1] p-4">
+                <img
+                    src="{{ asset('Картинки/Картинки/Наземная/ФУРА%201.webp') }}"
+                    alt="Международная автоперевозка на магистральной фуре"
+                    class="h-[210px] md:h-[230px] w-full object-cover border-[20px] border-[#091242]"
+                    loading="eager"
+                    decoding="async"
+                >
+            </figure>
         </div>
     </section>
 
@@ -59,13 +65,13 @@
 
     <section class="bg-[#F4F4F4]"><div class="container py-16"><h2 class="section-title text-3xl">Основные услуги</h2><div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8"><article class="bg-white rounded p-4"><h3 class="font-['Rubik'] text-[#1C1F35]">Автоперевозки</h3></article><article class="bg-white rounded p-4"><h3 class="font-['Rubik'] text-[#1C1F35]">Авиадоставка</h3></article><article class="bg-white rounded p-4"><h3 class="font-['Rubik'] text-[#1C1F35]">Морская доставка</h3></article><article class="bg-white rounded p-4"><h3 class="font-['Rubik'] text-[#1C1F35]">Железнодорожная доставка</h3></article></div><a href="{{ route('services') }}" class="inline-block mt-6 text-[#091242] font-['Rubik']">Смотреть все услуги →</a></div></section>
 
-    <section class="container py-16"><h2 class="section-title text-3xl">География перевозок</h2><p class="mt-3">Россия, Китай, Турция, ОАЭ, Казахстан, Беларусь, Узбекистан, страны ЕС.</p><img src="{{ asset('assets/images/card-thumb.svg') }}" alt="Схема международных логистических коридоров" class="mt-6 w-full max-w-3xl"></section>
+    <section class="container py-16"><h2 class="section-title text-3xl">География перевозок</h2><p class="mt-3">Россия, Китай, Турция, ОАЭ, Казахстан, Беларусь, Узбекистан, страны ЕС.</p><img src="{{ asset('Картинки/Картинки/Морская/МОРЕ%204.jpg') }}" alt="Контейнерная морская логистика для международных направлений" class="mt-6 w-full max-w-3xl rounded object-cover aspect-[16/9]" loading="lazy" decoding="async"></section>
 
     <section class="bg-[#091242] text-white"><div class="container py-16"><h2 class="section-title text-white text-3xl">Почему выбирают нас</h2><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"><article class="bg-white/10 p-4 rounded">Опытная команда ВЭД</article><article class="bg-white/10 p-4 rounded">Прозрачные SLA</article><article class="bg-white/10 p-4 rounded">Финансовая ответственность</article><article class="bg-white/10 p-4 rounded">Оптимизация маршрута</article><article class="bg-white/10 p-4 rounded">Собственная база партнеров</article><article class="bg-white/10 p-4 rounded">Оперативная поддержка</article></div></div></section>
 
     <section class="container py-16"><h2 class="section-title text-3xl">Как проходит доставка</h2><ol class="grid md:grid-cols-3 gap-4 mt-6"><li class="border rounded p-4">1. Заявка клиента</li><li class="border rounded p-4">2. Согласование условий</li><li class="border rounded p-4">3. Забор груза</li><li class="border rounded p-4">4. Оформление документов</li><li class="border rounded p-4">5. Перевозка</li><li class="border rounded p-4">6. Доставка получателю</li></ol></section>
 
-    <section class="bg-[#F4F4F4]"><div class="container py-16"><h2 class="section-title text-3xl">Кейсы</h2><div class="grid md:grid-cols-3 gap-4 mt-6"><article class="bg-white rounded overflow-hidden"><img src="{{ asset('assets/images/card-thumb.svg') }}" alt="Кейс: доставка промышленного оборудования"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Москва → Алматы</p></div></article><article class="bg-white rounded overflow-hidden"><img src="{{ asset('assets/images/card-thumb.svg') }}" alt="Кейс: доставка медицинских товаров"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Стамбул → Санкт-Петербург</p></div></article><article class="bg-white rounded overflow-hidden"><img src="{{ asset('assets/images/card-thumb.svg') }}" alt="Кейс: доставка электроники"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Шанхай → Екатеринбург</p></div></article></div><a href="{{ route('cases') }}" class="inline-block mt-5 text-[#091242] font-['Rubik']">Все кейсы →</a></div></section>
+    <section class="bg-[#F4F4F4]"><div class="container py-16"><h2 class="section-title text-3xl">Кейсы</h2><div class="grid md:grid-cols-3 gap-4 mt-6"><article class="bg-white rounded overflow-hidden"><img src="{{ asset('Картинки/Картинки/Наземная/ФУРА%202.jpg') }}" alt="Кейс: доставка промышленного оборудования автотранспортом" class="w-full aspect-[4/3] object-cover" loading="lazy" decoding="async"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Москва → Алматы</p></div></article><article class="bg-white rounded overflow-hidden"><img src="{{ asset('Картинки/Картинки/АВИА/АВИА%202.jpg') }}" alt="Кейс: доставка медицинских товаров авиалинией" class="w-full aspect-[4/3] object-cover" loading="lazy" decoding="async"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Стамбул → Санкт-Петербург</p></div></article><article class="bg-white rounded overflow-hidden"><img src="{{ asset('Картинки/Картинки/ЖД/ЖД%202.jpg') }}" alt="Кейс: доставка электроники железнодорожным транспортом" class="w-full aspect-[4/3] object-cover" loading="lazy" decoding="async"><div class="p-4"><p class="font-['Rubik'] text-[#1C1F35]">Шанхай → Екатеринбург</p></div></article></div><a href="{{ route('cases') }}" class="inline-block mt-5 text-[#091242] font-['Rubik']">Все кейсы →</a></div></section>
 
     <section class="container py-16"><div class="flex justify-between items-center"><h2 class="section-title text-3xl">Отзывы</h2><div class="flex gap-2"><button type="button" id="prevReview" class="border px-3 py-2 rounded" aria-label="Предыдущий отзыв">←</button><button type="button" id="nextReview" class="border px-3 py-2 rounded" aria-label="Следующий отзыв">→</button></div></div><div class="mt-6"><article class="review-item border rounded p-5">«Поставки из Китая стали предсказуемыми, отчеты получаем ежедневно.» — ООО «ТехИмпорт»</article><article class="review-item border rounded p-5 hidden">«В сезонных пиках команда быстро перестроила маршрут и не сорвала производство.» — АО «Мегапром»</article><article class="review-item border rounded p-5 hidden">«Сильная поддержка по таможенному оформлению и прозрачные сроки.» — ООО «БиоМедСнаб»</article></div><a href="{{ route('reviews') }}" class="inline-block mt-5 text-[#091242] font-['Rubik']">Все отзывы →</a></section>
 
