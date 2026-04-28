@@ -12,7 +12,7 @@
     <article class="border rounded p-5"><h2 class="font-semibold text-[#1C1F35]">Мария Осипова</h2><p class="text-sm">ООО «СитиМаркет»</p><p class="mt-3">«Команда быстро перестроила цепочку поставок в высокий сезон.»</p></article>
   </div>
   <section class="mt-10 bg-[#F4F4F4] rounded p-6">
-    <h2 class="text-2xl font-semibold text-[#1C1F35]">Видеоотзывы (скоро)</h2>
+    <h2 class="text-2xl font-semibold text-[#1C1F35]">Видеоотзывы</h2>
     <p class="mt-2">Здесь будет размещен блок с видеоотзывами клиентов.</p>
   </section>
 </div>
