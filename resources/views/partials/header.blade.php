@@ -11,7 +11,6 @@
       <a href="{{ route('home') }}" class="{{ $navClass('home') }}">Главная</a>
       <a href="{{ route('services') }}" class="{{ $navClass('services') }}">Услуги</a>
       <a href="{{ route('advantages') }}" class="{{ $navClass('advantages') }}">Преимущества</a>
-      <a href="{{ route('cases') }}" class="{{ $navClass('cases') }}">Кейсы</a>
       <a href="{{ route('reviews') }}" class="{{ $navClass('reviews') }}">Отзывы</a>
       <a href="{{ route('faq') }}" class="{{ $navClass('faq') }}">FAQ</a>
       <a href="{{ route('contacts') }}" class="{{ $navClass('contacts') }}">Контакты</a>
@@ -26,7 +25,6 @@
       <a href="{{ route('home') }}" class="{{ $navClass('home') }}">Главная</a>
       <a href="{{ route('services') }}" class="{{ $navClass('services') }}">Услуги</a>
       <a href="{{ route('advantages') }}" class="{{ $navClass('advantages') }}">Преимущества</a>
-      <a href="{{ route('cases') }}" class="{{ $navClass('cases') }}">Кейсы</a>
       <a href="{{ route('reviews') }}" class="{{ $navClass('reviews') }}">Отзывы</a>
       <a href="{{ route('faq') }}" class="{{ $navClass('faq') }}">FAQ</a>
       <a href="{{ route('contacts') }}" class="{{ $navClass('contacts') }}">Контакты</a>

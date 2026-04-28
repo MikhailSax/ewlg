@@ -16,7 +16,6 @@ Route::get('/about', [PageController::class, 'show'])->defaults('slug', 'about')
 Route::get('/services', [PageController::class, 'show'])->defaults('slug', 'services')->name('services');
 Route::get('/services/aviation', [PageController::class, 'show'])->defaults('slug', 'service-aviation')->name('service.single');
 Route::get('/advantages', [PageController::class, 'show'])->defaults('slug', 'advantages')->name('advantages');
-Route::get('/cases', [PageController::class, 'show'])->defaults('slug', 'cases')->name('cases');
 Route::get('/reviews', [PageController::class, 'show'])->defaults('slug', 'reviews')->name('reviews');
 Route::get('/faq', [PageController::class, 'show'])->defaults('slug', 'faq')->name('faq');
 Route::get('/contacts', [PageController::class, 'show'])->defaults('slug', 'contacts')->name('contacts');

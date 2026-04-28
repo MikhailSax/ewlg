@@ -17,7 +17,6 @@
       <ul class="mt-2 space-y-1">
         <li><a href="{{ route('about') }}">О компании</a></li>
         <li><a href="{{ route('services') }}">Услуги</a></li>
-        <li><a href="{{ route('cases') }}">Кейсы</a></li>
         <li><a href="{{ route('faq') }}">FAQ</a></li>
       </ul>
     </div>

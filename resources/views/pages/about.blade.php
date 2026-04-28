@@ -9,7 +9,7 @@
   <h2 class="text-2xl font-semibold text-[#1C1F35] mt-8">Наша миссия</h2>
   <p class="mt-2">Делать международную и внутреннюю логистику прозрачной, предсказуемой и экономически эффективной для бизнеса.</p>
   <section class="grid md:grid-cols-3 gap-4 mt-8">
-    <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">12+</p><p>лет опыта</p></div>
+    <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">5+</p><p>лет опыта</p></div>
     <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">48 000+</p><p>перевозок</p></div>
     <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">3 200+</p><p>клиентов</p></div>
   </section>

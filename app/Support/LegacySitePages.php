@@ -21,7 +21,6 @@ final class LegacySitePages
             'services' => 'pages.services',
             'service-aviation' => 'pages.service-single',
             'advantages' => 'pages.advantages',
-            'cases' => 'pages.cases',
             'reviews' => 'pages.reviews',
             'faq' => 'pages.faq',
             'contacts' => 'pages.contacts',

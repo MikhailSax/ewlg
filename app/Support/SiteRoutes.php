@@ -17,7 +17,6 @@ final class SiteRoutes
             'services' => 'services',
             'service.single' => 'service-aviation',
             'advantages' => 'advantages',
-            'cases' => 'cases',
             'reviews' => 'reviews',
             'faq' => 'faq',
             'contacts' => 'contacts',
