@@ -17,10 +17,10 @@
   </div>
   <section class="mt-10 bg-[#F4F4F4] rounded p-6">
     <h2 class="text-2xl font-semibold text-[#1C1F35]">Блок доверия</h2>
-    <p class="mt-2">С 2014 года реализовали более 48 000 поставок для производственных и торговых компаний.</p>
+    <p class="mt-2">За 5 лет реализовали более 48 000 поставок для производственных и торговых компаний.</p>
   </section>
   <section class="mt-8 grid md:grid-cols-3 gap-4">
-    <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">12+</p><p>лет опыта</p></div>
+    <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">5+</p><p>лет опыта</p></div>
     <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">3200+</p><p>активных клиентов</p></div>
     <div class="border rounded p-4 text-center"><p class="text-3xl font-bold text-[#1C1F35]">97%</p><p>доставок в срок</p></div>
   </section>
