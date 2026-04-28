@@ -1,0 +1,37 @@
+<svg width="520" height="200" viewBox="0 0 520 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EWLG логотип</title>
+  <desc id="desc">Логотип логистической компании с самолетом, грузовиком и стрелкой.</desc>
+
+  <g transform="translate(108 18)">
+    <path d="M154 0L181 10L156 19L129 10L154 0Z" fill="#050505"/>
+    <path d="M120 18L134 30L173 16C201 6 224 4 230 10C236 16 215 28 190 36L163 44L141 68C140 69 138 70 137 70H122L132 44L95 55L82 44L126 29L120 18Z" fill="#050505"/>
+    <path d="M89 29H104L117 40L102 45L89 36V29Z" fill="#050505"/>
+  </g>
+
+  <g transform="translate(70 64)">
+    <path d="M0 44C-2 42 -2 38 0 36L18 20H57L44 4C42 2 43 0 46 0H103C105 0 107 1 108 2L145 37C147 39 147 42 145 44L108 79C107 80 105 81 103 81H46C43 81 42 79 44 77L57 61H18L0 44Z" fill="#04B17A"/>
+  </g>
+
+  <g transform="translate(184 84)">
+    <path d="M0 45L12 4H110L92 68H0L0 45Z" fill="#0A0A0A"/>
+    <rect x="14" y="14" width="8" height="44" transform="skewX(-12)" fill="#FFFFFF"/>
+    <rect x="35" y="14" width="8" height="44" transform="skewX(-12)" fill="#FFFFFF"/>
+    <rect x="56" y="14" width="8" height="44" transform="skewX(-12)" fill="#FFFFFF"/>
+    <rect x="77" y="14" width="8" height="44" transform="skewX(-12)" fill="#FFFFFF"/>
+    <path d="M102 27H140C145 27 148 30 149 35L154 56C154 58 153 60 151 62L145 70H102V27Z" fill="#0A0A0A"/>
+    <circle cx="28" cy="77" r="12" fill="#0A0A0A"/>
+    <circle cx="118" cy="77" r="12" fill="#0A0A0A"/>
+  </g>
+
+  <g transform="translate(52 146)">
+    <path d="M0 31V0H76V8H10V12H76V20H10V23H76V31H0Z" fill="#050505"/>
+    <path d="M90 0V23H131V31H80V0H90Z" fill="#050505"/>
+    <path d="M139 0H149V31H139V0Z" fill="#050505"/>
+    <path d="M158 0V23H198V31H148V0H158Z" fill="#050505"/>
+    <path d="M207 0H217V31H207V0Z" fill="#050505"/>
+    <path d="M226 23H297V31H216V0H226V23Z" fill="#050505"/>
+    <path d="M344 23V31H307C301 31 297 27 297 21V10C297 4 301 0 307 0H344V8H308V23H344Z" fill="#050505"/>
+  </g>
+
+  <text x="158" y="195" fill="#101010" font-size="26" font-family="Arial, sans-serif">Логистическая компания</text>
+</svg>
