@@ -17,6 +17,7 @@
     use App\Models\SiteSetting;
 
     $companyName = SiteSetting::getValue('company_name', 'Ewlg');
+    $companyLogo = SiteSetting::getValue('company_logo', asset('assets/icons/logo-mark.svg'));
     $companyPhone = SiteSetting::getValue('company_phone', '+7 (800) 123-45-67');
     $companyEmail = SiteSetting::getValue('company_email', 'info@ewlg.com');
     $companyAddress = SiteSetting::getValue('company_address', 'Москва, Пресненская набережная, 10');
