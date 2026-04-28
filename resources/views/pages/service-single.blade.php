@@ -1,11 +1,39 @@
 @extends('layouts.app')
 
-@section('title', 'Авиадоставка — КаргоСайт')
+@php
+  $services = [
+      'service.single' => [
+          'title' => 'Авиадоставка грузов',
+          'image' => 'Картинки/Картинки/АВИА/АВИА%201.png',
+          'alt' => 'Авиаперевозка коммерческих грузов с приоритетной обработкой',
+      ],
+      'service.road' => [
+          'title' => 'Автоперевозки грузов',
+          'image' => 'Картинки/Картинки/Наземная/ФУРА%201.webp',
+          'alt' => 'Автомобильная перевозка грузов по магистралям с контролем сроков',
+      ],
+      'service.sea' => [
+          'title' => 'Морская доставка грузов',
+          'image' => 'Картинки/Картинки/Морская/МОРЕ%203.webp',
+          'alt' => 'Морские контейнерные перевозки для международной логистики',
+      ],
+      'service.rail' => [
+          'title' => 'Железнодорожная доставка грузов',
+          'image' => 'Картинки/Картинки/ЖД/ЖД%201.webp',
+          'alt' => 'Железнодорожная перевозка контейнеров с прогнозируемым транзитом',
+      ],
+  ];
+
+  $currentRouteName = request()->route()?->getName() ?? 'service.single';
+  $service = $services[$currentRouteName] ?? $services['service.single'];
+@endphp
+
+@section('title', $service['title'].' — КаргоСайт')
 
 @section('content')
 <div class="container py-12">
-  <h1 class="text-4xl font-bold text-[#1C1F35]">Авиадоставка грузов</h1>
-  <img src="{{ asset('Картинки/Картинки/АВИА/АВИА%201.png') }}" alt="Авиаперевозка коммерческих грузов с приоритетной обработкой" class="mt-6 w-full rounded object-cover aspect-[16/9]" loading="eager" decoding="async">
+  <h1 class="text-4xl font-bold text-[#1C1F35]">{{ $service['title'] }}</h1>
+  <img src="{{ asset($service['image']) }}" alt="{{ $service['alt'] }}" class="mt-6 w-full rounded object-cover aspect-[16/9]" loading="eager" decoding="async">
   <p class="mt-6">Шаблон страницы услуги можно копировать для любых направлений: меняйте заголовок, преимущества и FAQ под конкретный сервис.</p>
   <h2 class="text-2xl font-semibold text-[#1C1F35] mt-8">Преимущества услуги</h2>
   <ul class="list-disc pl-6 mt-3"><li>Доставка срочных грузов от 1 дня</li><li>Приоритетная обработка в аэропортах</li><li>Поддержка температурных режимов</li></ul>
