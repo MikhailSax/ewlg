@@ -1,8 +1,8 @@
 <footer class="bg-[#091242] text-white">
   <div class="container py-10 grid md:grid-cols-4 gap-6">
     <div>
-      <div class="flex items-center">
-        <img src="{{ $companyLogo }}" alt="Логотип {{ $companyName }}" class="h-14 w-auto">
+      <div class="inline-flex items-center bg-white rounded-md px-2 py-1">
+        <img src="{{ asset('assets/icons/ewlg-logo.svg') }}" alt="Логотип {{ $companyName }}" class="h-14 w-auto">
       </div>
       <p class="mt-3 text-sm text-white/80">Логистика для производственных, торговых и e-commerce компаний.</p>
     </div>

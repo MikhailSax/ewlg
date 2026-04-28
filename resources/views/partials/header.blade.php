@@ -4,7 +4,7 @@
 <header id="siteHeader" class="sticky top-0 z-50 bg-white border-b border-[#E5E8F0]">
   <div class="container py-2.5 md:py-3.5 flex items-center justify-between gap-4">
     <a href="{{ route('home') }}" class="flex items-center" aria-label="Перейти на главную страницу">
-      <img src="{{ $companyLogo }}" alt="Логотип компании {{ $companyName }}" class="h-10 w-auto md:h-12">
+      <img src="{{ asset('assets/icons/ewlg-logo.svg') }}" alt="Логотип компании {{ $companyName }}" class="h-9 w-auto md:h-12">
     </a>
     <button id="mobileMenuButton" class="md:hidden text-2xl" type="button" aria-label="Открыть мобильное меню">☰</button>
     <nav class="hidden md:flex gap-5 text-[11px] md:text-[14px] leading-none">
