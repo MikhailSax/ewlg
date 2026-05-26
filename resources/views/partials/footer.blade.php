@@ -11,7 +11,7 @@
             <h3 class="font-['Rubik']">Контакты</h3>
             <p class="mt-2"><a href="weixin://dl/chat?KSN990903">Написать в WeChat</a></p>
             <p><a href="mailto:EWLGlog@yandex.com">EWLGlog@yandex.com</a></p>
-            <p>{{ $companyAddress }}</p>
+{{--            <p>{{ $companyAddress }}</p>--}}
         </div>
         <div>
             <h3 class="font-['Rubik']">Разделы</h3>

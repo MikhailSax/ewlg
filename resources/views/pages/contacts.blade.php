@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @php
-$companyPhone = '+7(914)-832-52-42';
+$companyPhone = '+7(983)-634-55-61';
 $companyEmail = 'example@mail.ru';
 $companyAddress = 'г.Гуанжоу Китай '
 @endphp
@@ -11,10 +11,10 @@ $companyAddress = 'г.Гуанжоу Китай '
   <h1 class="text-4xl font-bold text-[#1C1F35]">Контакты</h1>
   <div class="grid md:grid-cols-2 gap-6 mt-8">
     <div>
-      <p><strong>Телефон:</strong> <a href="tel:+78001234567" class="text-[#091242]">{{ $companyPhone }}</a></p>
+      <p><strong>Телефон:</strong> <a href="tel:+79836345561" class="text-[#091242]">{{ $companyPhone }}</a></p>
       <p class="mt-2"><strong>Email:</strong> <a href="mailto:{{ $companyEmail }}" class="text-[#091242]">{{ $companyEmail }}</a></p>
-      <p class="mt-2"><strong>Мессенджеры:</strong> Telegram, WhatsApp</p>
-      <p class="mt-2"><strong>Адрес:</strong> {{ $companyAddress }}</p>
+      <p class="mt-2"><strong>Мессенджеры:</strong> Telegram, We chat</p>
+{{--      <p class="mt-2"><strong>Адрес:</strong> {{ $companyAddress }}</p>--}}
       <button type="button" data-open-lead class="mt-6 bg-[#091242] text-white px-5 py-3 rounded">Быстрая заявка</button>
     </div>
   </div>
