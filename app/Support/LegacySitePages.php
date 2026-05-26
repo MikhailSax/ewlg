@@ -23,6 +23,10 @@ final class LegacySitePages
             'service-road' => 'pages.service-single',
             'service-sea' => 'pages.service-single',
             'service-rail' => 'pages.service-single',
+            'service-customs'   => 'pages.service-single', // Исправлено: точка заменена на дефис, добавлен путь pages.
+            'service-warehouse' => 'pages.service-single', // Добавлено! Ошибка 404 пропадет
+            'service-agency'    => 'pages.service-single',
+            'service-incoterms' => 'pages.incoterms',
             'advantages' => 'pages.advantages',
             'reviews' => 'pages.reviews',
             'faq' => 'pages.faq',

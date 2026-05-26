@@ -16,7 +16,6 @@
       <a href="{{ route('contacts') }}" class="{{ $navClass('contacts') }}">Контакты</a>
     </nav>
     <div class="hidden md:flex items-center gap-4">
-      <a href="tel:+78001234567" class="font-['Rubik'] text-[#091242] text-[11px] md:text-[14px] leading-none" aria-label="Позвонить в {{ $companyName }}">{{ $companyPhone }}</a>
       <button type="button" data-open-lead class="bg-[#FFBE34] px-3 py-1.5 md:px-4 md:py-2 rounded-[2px] text-[#091242] text-[11px] md:text-[14px] leading-none font-medium">Оставить заявку</button>
     </div>
   </div>

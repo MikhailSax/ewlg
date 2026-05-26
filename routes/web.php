@@ -13,16 +13,21 @@ Route::get('/robots.txt', function () {
 
 Route::get('/', [PageController::class, 'show'])->defaults('slug', 'home')->name('home');
 Route::get('/about', [PageController::class, 'show'])->defaults('slug', 'about')->name('about');
+
 Route::get('/services', [PageController::class, 'show'])->defaults('slug', 'services')->name('services');
 Route::get('/services/aviation', [PageController::class, 'show'])->defaults('slug', 'service-aviation')->name('service.single');
 Route::get('/services/road', [PageController::class, 'show'])->defaults('slug', 'service-road')->name('service.road');
 Route::get('/services/sea', [PageController::class, 'show'])->defaults('slug', 'service-sea')->name('service.sea');
 Route::get('/services/rail', [PageController::class, 'show'])->defaults('slug', 'service-rail')->name('service.rail');
+Route::get('/services/customs', [PageController::class, 'show'])->defaults('slug', 'service-customs')->name('service.customs');
+Route::get('/services/warehouse', [PageController::class, 'show'])->defaults('slug', 'service-warehouse')->name('service.warehouse');
+Route::get('/services/agency', [PageController::class, 'show'])->defaults('slug', 'service-agency')->name('service.agency');
+Route::get('/services/incoterms', [PageController::class, 'show'])->defaults('slug', 'service-incoterms')->name('service.incoterms');
 Route::get('/advantages', [PageController::class, 'show'])->defaults('slug', 'advantages')->name('advantages');
 Route::get('/reviews', [PageController::class, 'show'])->defaults('slug', 'reviews')->name('reviews');
 Route::get('/faq', [PageController::class, 'show'])->defaults('slug', 'faq')->name('faq');
 Route::get('/contacts', [PageController::class, 'show'])->defaults('slug', 'contacts')->name('contacts');
-
+Route::get('/incoterms',[PageController::class,'show'])->defaults('slug', 'incoterms')->name('incoterms');
 Route::get('/blog', [PageController::class, 'show'])->defaults('slug', 'blog')->name('blog');
 Route::get('/blog/sample', [PageController::class, 'show'])->defaults('slug', 'blog-sample')->name('blog.single');
 Route::get('/team', [PageController::class, 'show'])->defaults('slug', 'team')->name('team');
