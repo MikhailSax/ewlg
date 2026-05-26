@@ -68,8 +68,8 @@
             <!-- Складские услуги -->
             <article class="border border-gray-200 rounded-xl p-5 bg-white shadow-xs flex flex-col justify-between">
                 <div>
-                    <h2 class="font-bold text-lg text-[#1C1F35]">Складские услуги</h2>
-                    <p class="mt-2 text-sm text-gray-600">Приемка, маркировка, паллетирование и кросс-докинг.</p>
+                    <h2 class="font-bold text-lg text-[#1C1F35]">Агентские и финансовые услуги</h2>
+                    <p class="mt-2 text-sm text-gray-600">Агентские и финансовые услуги включают представление интересов клиента при внешнеэкономических операциях, взаимодействие с поставщиками</p>
                 </div>
                 <a href="{{ route('service.agency') }}" class="text-[#091242] font-semibold text-sm mt-4 inline-block hover:underline">Подробнее →</a>
             </article>
