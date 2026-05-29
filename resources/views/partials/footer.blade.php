@@ -25,7 +25,7 @@
         <div>
             <ul class="mt-2 space-y-1">
                 <li><a href="">WE-chat</a></li>
-                <li><a href="">Telegram</a></li>
+                <li><a href="https://t.me/ewlg_bot">Telegram</a></li>
             </ul>
             <p class="mt-4 text-sm text-white/70">© {{ date('Y') }} {{ $companyName }}. Все права защищены.</p>
         </div>

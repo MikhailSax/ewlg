@@ -241,15 +241,6 @@
                 <li>{{$adv}}</li>
             @endforeach
         </ul>
-        <h2 class="text-2xl font-semibold text-[#1C1F35] mt-8">Этапы работы</h2>
-        <ol class="grid md:grid-cols-3 gap-3 mt-4">
-            <li class="border rounded p-3">1. Бриф и сбор данных</li>
-            <li class="border rounded p-3">2. Подбор рейса и тарифов</li>
-            <li class="border rounded p-3">3. Забор и упаковка</li>
-            <li class="border rounded p-3">4. Оформление документов</li>
-            <li class="border rounded p-3">5. Перелет и контроль статусов</li>
-            <li class="border rounded p-3">6. Доставка получателю</li>
-        </ol>
         <h2 class="text-2xl font-semibold text-[#1C1F35] mt-8">FAQ по услуге</h2>
         <div class="mt-4 space-y-2">
             @foreach ($service['faq'] as $question => $answer)
